@@ -1,0 +1,66 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to bottom, #396db0 0%, #2a3c57 100%);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Improved readability */
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 12px 24px; /* Increased padding for a more touch-friendly button */
+  margin-bottom: 15px; /* Increased spacing between buttons */
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff; /* Increased border thickness */
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #396db0;
+}
+
+/* Login Box Styles */
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 30px; /* Increased padding for more space */
+  background: rgba(0, 0, 0, 0.7); /* Adjusted background transparency */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Added a more pronounced box shadow */
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  margin-bottom: 20px; /* Increased spacing between headings and content */
+}
+
+/* Paragraph Styles */
+p {
+  margin-bottom: 20px; /* Increased spacing between paragraphs */
+}
+
